@@ -1,0 +1,31 @@
+[
+
+    { mp: 0, ac: "Monitoring", ap: "high", color: "green", flashinterval: 0 },
+
+    { mp: 1, ac: "Spo2 INOP", ap: "high", color: "red", flashinterval: 1500 },
+
+    { mp: 2, ac: "Sensor Failure", ap: "low", color: "yellow", flashinterval: 0 },
+
+    { mp: 3, ac: "Sensor Disconnected", ap: "low", color: "yellow", flashinterval: 0 },
+
+    { mp: 4, ac: "Sensor Off", ap: "low", color: "yellow", flashinterval: 0 },
+
+    { mp: 5, ac: "Pulse Timeout", ap: "high", color: "red", flashinterval: 1500 },
+
+    { mp: 6, ac: "Spo2 Low", ap: "medium", color: "yellow", flashinterval: 500 },
+
+    { mp: 7, ac: "Pulse Rate Low", ap: "medium", color: "yellow", flashinterval: 500 },
+
+    { mp: 8, ac: "Pulse Rate High", ap: "medium", color: "yellow", flashinterval: 500 },
+
+    { mp: 9, ac: "Spo2 High", ap: "medium", color: "yellow", flashinterval: 500 },
+
+    { mp: 10, ac: "Respiration Rate Low", ap: "low", color: "yellow", flashinterval: 0 },
+
+    { mp: 11, ac: "Respiration Rate High", ap: "low", color: "yellow", flashinterval: 0 },
+
+    { mp: 12, ac: "SPD Alert", ap: "low", color: "yellow", flashinterval: 0 },
+
+    { mp: 13, ac: "Extended Update", ap: "low", color: "yellow", flashinterval: 0 }
+
+  ]

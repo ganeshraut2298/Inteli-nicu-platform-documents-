@@ -1,0 +1,84 @@
+Application Data:
+--------------------------------
+String           Frequency    
+--------------------------------
+Temparature      1 Min
+--------------------------------
+Payload String:
+{
+  "machineid": 0,
+  "clientid": 0,
+  "babyid": 0,
+  "babytemperature": 0,
+  "settemperature": 0,
+  "airtemperature": 0,
+  "pheripheraltemperature": 0,
+  "heaterpower": 0,
+  "lastupdatetime": "2023-01-07",
+  "mode": "string",
+  "mvalue": 0,
+  "mrn": "string",
+  "isactive": true
+}
+
+--------------------------------
+String           Frequency    
+--------------------------------
+spo2& pulserate  1 Min
+--------------------------------
+Payload String:
+{
+  "machineid": 0,
+  "clientid": 0,
+  "babyid": 0,
+  "nurseid": 0,
+  "spotwovalue": 0,
+  "pulseratevalue": 0,
+  "pivalue": 0,
+  "HRvalue": 0,
+  "Weightvalue": 0,
+  "RRvalue": 0,
+  "sysvalue": 0,
+  "diavalue": 0,
+  "mode": 0,
+  "mrn": "string",
+  "isactive": true,
+  "babytemp": 0,
+  "comment": "string"
+}
+
+--------------------------------
+String           Frequency    
+--------------------------------
+Alert            1 Sec
+--------------------------------
+Payload String :
+{
+    "babyid": 0,
+    "mrn": "text",
+    "machineid": 0,
+    "raw_data": {
+        "DID": "SBWXXX",
+        "MID": "440",
+        "AL": [
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    "eventdate": "2023-01-07T06:39:54.426Z"
+}

@@ -1,0 +1,67 @@
+Hardware Incomming string for alerts (sequence is fixed)
+-------------------------
+{"DID": "SBWXXX","MID":"440","AL" : "['0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']"};
+
+freq = 1 sec from hardware
+
+alarms = [
+
+    { parameter: 'DID Fail', code: 'DIDF', alert: false },
+
+    { parameter: 'Baby Temp High (T1)', code: 'BTH', alert: false },
+
+    { parameter: 'Baby Temp low (T1)', code: 'BTL', alert: false },
+
+    { parameter: 'Baby Temp Over Range', code: 'BTO1', alert: false },
+
+    { parameter: 'Baby Temp Over Range', code: 'BTO3', alert: false },
+
+    { parameter: 'Baby Temp Cold', code: 'BTC', alert: false },
+
+    { parameter: 'Air Temp High', code: 'ATH', alert: false },
+
+    { parameter: 'Air Temp Low', code: 'ATL', alert: false },
+
+    { parameter: 'Cold Stress Onset', code: 'CSO', alert: false },
+
+    { parameter: 'Heat Stress Onset', code: 'HSO', alert: false },
+
+    { parameter: 'Fever Onset', code: 'FO', alert: false },
+
+    { parameter: 'Baby Thermoregulation/Infection?', code: 'BI', alert: false },
+
+    { parameter: 'Check Skin probe dislodge?', code: 'CSP', alert: false },
+
+    { parameter: 'Check Sensor T1 & T2', code: 'CS', alert: false },
+
+    { parameter: 'DID Fail', code: 'DIDF', alert: false },
+
+    { parameter: 'SPO2 LOW', code: 'SPL', alert: false },
+
+    { parameter: 'SPO2 HIGH', code: 'SPH', alert: false },
+
+    { parameter: 'Pulse Rate LOW', code: 'PRL', alert: false },
+
+    { parameter: 'Pulse Rate HIGH', code: 'PRH', alert: false },
+
+    { parameter: 'SPO2 Sensor Disconnect', code: 'SD', alert: false },
+
+    { parameter: 'Loss of Pulse with Interference', code: 'LM', alert: false },
+
+    { parameter: 'Loss of Pulse', code: 'LP', alert: false },
+
+    { parameter: 'Skin Probe Fail (T1)', code: 'SPF', alert: false },
+
+    { parameter: 'T2 Probe Fail', code: 'T2F', alert: false },
+
+    { parameter: 'Air Probe Fail (T3)', code: 'APF', alert: false },
+
+    { parameter: 'Heater Fail', code: 'HF', alert: false },
+
+    { parameter: 'Connectivity Failure-1 Switchoff the machine', code: 'BSF', alert: false },
+
+    { parameter: 'SPO2 System Failure', code: 'SSF', alert: false },
+
+    { parameter: 'Heater Power! Heater power reduced to 50%', code: 'HP', alert: false }​
+
+  ];
